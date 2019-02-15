@@ -7,6 +7,16 @@ target 'PickerSample' do
 
   # Pods for PickerSample
 
+  # Rx
+  pod 'RxSwift',    '~> 4.0'
+  pod 'RxCocoa',    '~> 4.0'
+  
+  # Reactorkit
+  pod 'ReactorKit'
+  
+  
+  pod 'SnapKit', '~> 4.0.0'
+  
   target 'PickerSampleTests' do
     inherit! :search_paths
     # Pods for testing
